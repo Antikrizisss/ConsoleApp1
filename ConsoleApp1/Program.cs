@@ -1,29 +1,19 @@
-﻿
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Reflection;
 
-namespace HelloApp
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
+            string str = "This is probl a testing";
+            Kata.SpinWords(str);
 
-            Console.WriteLine();
-            string text = Console.ReadLine();
-            int x = Convert.ToInt32(text);
-
-            switch (x)
-            {
-                case 1:
-                    Console.WriteLine("Число 1");
-                    break;
-                case 2:
-                    Console.WriteLine("Число 2");
-                    break;
-
-            }
-
-            Console.WriteLine("Все");
         }
     }
 }
