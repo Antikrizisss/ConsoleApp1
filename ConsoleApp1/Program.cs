@@ -12,7 +12,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            //Console.WriteLine(Kata.IsValidWalk(new string[] { "n", "n", "n", "s", "n", "s", "n", "s", "n", "s" }));
+            //Console.WriteLine(Kata.IsValidWalk(new string[] { "n", "n", "s", "s", "n", "s", "n", "s", "n", "s" }));
             
             //string str = "RWUBWUBWUBLXWUB";
             //Console.WriteLine(Dubstep.SongDecoder(str));
