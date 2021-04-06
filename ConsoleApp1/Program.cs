@@ -11,9 +11,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string str = "This is probl a testing";
-            Kata.SpinWords(str);
 
+            //Console.WriteLine(Kata.IsValidWalk(new string[] { "n", "n", "n", "s", "n", "s", "n", "s", "n", "s" }));
+            
+            //string str = "RWUBWUBWUBLXWUB";
+            //Console.WriteLine(Dubstep.SongDecoder(str));
         }
     }
 }

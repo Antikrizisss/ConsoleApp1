@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System;
 
-public class Kata
+public partial class Kata
 {
+    //Задача Stop gninnipS My sdroW!
     public static string SpinWords(string sentence)
     {
         string[] words = sentence.Split(" ", StringSplitOptions.RemoveEmptyEntries);
@@ -15,9 +15,7 @@ public class Kata
                 var word = new string(words[i].ToCharArray().Reverse().ToArray());
                 words[i] = word;
             }
-            
         }
         return String.Join(" ", words);
-
     }
 }
