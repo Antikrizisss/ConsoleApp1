@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Console.WriteLine(Triangle.IsTriangle(5, 7, 10));
 
             //Console.WriteLine(Kata.IsValidWalk(new string[] { "n", "n", "s", "s", "n", "s", "n", "s", "n", "s" }));
-            
+
             //string str = "RWUBWUBWUBLXWUB";
             //Console.WriteLine(Dubstep.SongDecoder(str));
         }
