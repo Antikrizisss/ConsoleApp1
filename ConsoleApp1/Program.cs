@@ -11,7 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Triangle.IsTriangle(5, 7, 10));
+            string s = "abcdf";
+            Kata.SplitStrings(s);
+            //Console.WriteLine(Triangle.IsTriangle(5, 7, 10));
 
             //Console.WriteLine(Kata.IsValidWalk(new string[] { "n", "n", "s", "s", "n", "s", "n", "s", "n", "s" }));
 
